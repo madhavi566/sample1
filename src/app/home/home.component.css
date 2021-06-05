@@ -1,0 +1,14 @@
+
+.myg-card-shadow {
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.12);
+  }
+  
+  .card.myg-card-rounded {
+    border-radius: 0.5rem;
+  }
+  
+  .card.myg-card-bordered {
+    border-width: 1px;
+  }
+  

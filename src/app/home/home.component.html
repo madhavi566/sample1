@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="card myg-card-shadow myg-card-rounded myg-card-bordered">
+    <div class="card-body py-3">
+      <h4 class="card-title" >{{offersData[0].Heading}}</h4>
+      <div class="row">
+        <div class="col-md-9">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v64KOxKVLVg" allowfullscreen ></iframe>
+         </div>
+         <section>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                   <h3> Description </h3>                  
+                    <p> {{offersData[0].Description}}
+                    </p>
+                    <p> Reference : 
+                        <a [attr.href]="offersData[0].Reference">
+                            {{offersData[0].Reference}}
+                           </a>
+                    </p>
+                </div> 
+            </div>
+         </section> 
+        </div>
+        <div class="col-md-3">
+            <a href="{{offersData[0].Reference}}">
+                <img src="{{offersData[0].Image}}" alt="fake-image" />
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
